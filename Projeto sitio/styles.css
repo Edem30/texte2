@@ -1,0 +1,102 @@
+      p {
+          text-align: justify;
+      }
+      
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color: rgb(252, 174, 144), 0.671);
+      }
+      
+      header {
+          text-align: center;
+          color: #fff;
+      }
+      
+      .parallax {
+          background-image: url('img/foto_ampla.jpg');
+          height: 600px;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: list-item;
+          align-items: center;
+          justify-content: center;
+          padding-top: 5vh;
+      }
+      
+      .parallax p {
+          max-width: 500px;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 32vw;
+          margin-inline-end: 32vw;
+      }
+      
+      main {
+          text-align: center;
+          padding: 20px;
+      }
+      
+      .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin: 35px;
+      }
+      
+      .item {
+          margin: 0px;
+          max-width: 300px;
+          margin-right: 200px;
+          display: flex;
+          align-items: center;
+      }
+      
+      .descricao {
+          display: flex;
+          flex-direction: initial;
+          max-width: 170px;
+      }
+      
+      img {
+          max-width: 200px;
+          margin-right: 8px;
+      }
+      
+      footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 10px;
+      }
+      
+      .social {
+          display: flex;
+          justify-content: center;
+      }
+      
+      .social a {
+          margin: 0 10px;
+          text-decoration: none;
+          color: #fff;
+      }
+      
+      .social img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+      }
+      
+      a {
+          color: #fff;
+          text-decoration: none;
+          margin: 5px;
+          padding: 15px;
+      }
+      
+      .menu {
+          display: flex;
+          justify-content: end;
+      }
